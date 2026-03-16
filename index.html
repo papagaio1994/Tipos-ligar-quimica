@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ligações químicas — 9.º ano</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="container">
+      <header class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">9.º ano · Ligações químicas</div>
+          <h1>Atividade interativa: ligação covalente, notação de Lewis e tipos de substâncias</h1>
+          <p>
+            Percorre as missões, recebe feedback imediato e treina a relação entre estabilidade eletrónica,
+            regra do octeto, notação de Lewis, tipos de ligação e classificação das substâncias.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-head">
+            <span>Progresso global</span>
+            <strong id="progress-label">0%</strong>
+          </div>
+          <div class="progress-track"><div id="progress-fill" class="progress-fill"></div></div>
+          <div class="stats-grid">
+            <div class="glass-card">
+              <div class="stat-title">Pontuação</div>
+              <div class="stat-value" id="score-label">0/0</div>
+            </div>
+            <div class="glass-card">
+              <div class="stat-title">Lewis concluídos</div>
+              <div class="stat-value" id="builder-label">0/0</div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <nav class="tabs" id="tabs"></nav>
+
+      <main id="app"></main>
+
+      <footer class="footnote">
+        <strong>Nota didática</strong>
+        <p>
+          Esta atividade usa a regra do octeto como modelo simplificado apropriado para o 9.º ano.
+          Em contexto de aula, pode ser complementada com exemplos e discussão oral sobre as limitações
+          deste modelo e sobre a distinção entre ligação covalente, substância molecular e substância covalente em rede.
+        </p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
